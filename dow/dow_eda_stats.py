@@ -20,8 +20,6 @@ df = pd.read_csv(DATA_PATH + FILE_NAME)
 
 # %% ####### Start with EDA
 
-# Show me the data set with number of rows and columns
-print(df)
 
 # What are the column dtypes and number of NAs ?
 print(df.info())
@@ -38,9 +36,5 @@ print(df.date.min())
 # What is the latest trading date in the data ?
 print(df.date.max())
 
-# ##
-
-# TODO add basic features
-# TODO make datetime switch and make weekday visualization and month
 
 # %%
