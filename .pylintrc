@@ -1,0 +1,4 @@
+[MESSAGES CONTROL]
+max-line-length=100
+good-names= s3, X, y, df, i, j, ax, ay, e, f
+disable=invalid-name,wrong-import-position,no-member,redefined-outer-name,ungrouped-imports,reimported, unbalanced-tuple-unpacking

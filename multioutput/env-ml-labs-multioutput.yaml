@@ -1,0 +1,18 @@
+# Environment Template: Start environment installation with...
+# conda env create -f env-ml-labs-multioutput.yaml
+# Delete with...
+# conda env remove -n ml-labs-multioutput
+
+name: ml-labs-multioutput
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Version Requirements
+  - python>=3.10.6
+  - pip>=22.2.2
+  - numpy>=1.23
+  - pandas>=1.5
+  - scikit-learn>=1.1
